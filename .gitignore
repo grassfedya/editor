@@ -1,0 +1,16 @@
+node_modules/
+.cache/
+.DS_Store
+
+# whisper model weights (~1.5G), download command is in the README
+models/
+
+# per-video working files: source footage, transcripts, plans, renders
+projects/*
+!projects/.gitkeep
+
+# stray source footage parked in the repo root
+/*.MP4
+/*.MOV
+/*.mp4
+/*.mov
